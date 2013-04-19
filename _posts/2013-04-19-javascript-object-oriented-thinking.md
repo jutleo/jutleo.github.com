@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "javascript prototype对象化的思考"
+title: "javascript 对象化的思考"
 tagline: "Javascript Object Oriented Thinking"
-description: "javascript对象化的思考"
-tags: [apache proxy]
+description: "javascript对象化的思考,学习javascript 要学习它的精髓， 面向对象的javascript！ "
+tags: [javascript]
 ---
 {% include JB/setup %}
 
