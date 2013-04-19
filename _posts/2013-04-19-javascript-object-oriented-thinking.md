@@ -7,8 +7,6 @@ tags: [apache proxy]
 ---
 {% include JB/setup %}
 
-![既要节省内存，又要对象化](/static/img/20130419001.jpg) 
-
 ### javascript 面向对象的编程  
   
   学习javascript 要学习它的精髓， 面向对象的javascript！  
@@ -81,5 +79,5 @@ tags: [apache proxy]
   再来看上面的代码，`personA`对象和`personB`对象精简了不少吧！ 但是！ 全是public的，如果 private、还想节省内存该如何呢？  
 
   
-  
+  ![既要节省内存，又要对象化](/static/img/20130419001.jpg)
   
