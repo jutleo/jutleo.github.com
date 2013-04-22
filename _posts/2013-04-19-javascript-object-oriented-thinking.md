@@ -69,7 +69,7 @@ tags: [javascript]
 	
 	Person.prototype.email = 'jutleo@gmail.com';
 	Person.prototype.company = 'NP';
-	Person.prototype.doSomeThind = function() {
+	Person.prototype.doSomeThing = function() {
 		// to do some thing
 	};
   
