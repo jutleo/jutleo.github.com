@@ -9,7 +9,7 @@ tags: [iReport, jasperReport]
 
 ###基本概念
 
-从[这个网址]就可以得到ireport+jasperReport，注意下载iReport和jasperReport的版本必须一致。  
+从[这个网址][jasperReport]就可以得到ireport+jasperReport，注意下载iReport和jasperReport的版本必须一致。  
 我们所说的报表指的是JasperReport，iReport只是jasperReport的一个可视化的开发工具，JasperReport通过读取xml文件生成报表，分为三个部分：  
 1. 编写xml文件也就是jrxml文件;  
 2. 读取并编译jrxml--->jasper文件;  
@@ -36,8 +36,8 @@ JaspreReport支持很多中数据源之后在详细介绍每一种数据源的�
 jasperreport支持中文依赖iText.jar，报表设计时将字体设计为：  
 ![数据源设置](/static/img/20130422003.png)  
 网上找一些这方面的资料很容易就可以利用报表向导做一个简单的报表，
-[这位哥们]:(http://www.blogjava.net/fastunit/archive/2008/01/16/175687.html)写的就很不错，截图都有了
-[jasperReport API]:(http://jasperreports.sourceforge.net/api/index.html)这是jasperReport的api地址，大家可以利用它的源码自己生成api。 
+[这位哥们](http://www.blogjava.net/fastunit/archive/2008/01/16/175687.html)写的就很不错，截图都有了
+[jasperReport API](http://jasperreports.sourceforge.net/api/index.html)这是jasperReport的api地址，大家可以利用它的源码自己生成api。 
 
 
 
