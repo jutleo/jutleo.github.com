@@ -47,7 +47,7 @@ tags: [javascript]
 
 OK，再来看看我们如何去改写上文提到的私有化、共享。  
 	
-	var Person = (
+	var Person = (function(){
 		var personExt = {
 			email : 'jutleo@gmail.com',
 			company : 'NP',
@@ -65,7 +65,7 @@ OK，再来看看我们如何去改写上文提到的私有化、共享。
 		};
 		
 		return Person;
-	)();
+	})();
 	
 	var personA = new Person('jutleo_01', '男');
 	var personB = new Person('jutleo_02', '女');

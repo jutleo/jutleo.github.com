@@ -54,7 +54,7 @@ tags: [javascript]
     
 第二种才是我想思考的，如果不对当前对象累加内存，那应该这么做：  
 	
-	var Person = (
+	var Person = (function(){
 		var email = 'jutleo@gmail.com';
 		var company = 'NP';
 		
@@ -72,7 +72,7 @@ tags: [javascript]
 		};
 		
 		return Person;
-	)();  
+	})();  
 
 我们来分析下，以上代码。使用一个匿名函数包裹`Person`类，并立即执行。匿名函数返回'Person'类的引用。应该这么调用  
 	
