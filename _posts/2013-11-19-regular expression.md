@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "iReport+jasperReport之客户端打印 (续二) ----数字签名"
-tagline: "Series of articles of iReport and JasperReport "
-description: "接着上篇，jasperReport 实现客户端主要是依靠applet，但是我们所有的操作不可能在applet中实现吧，这样也不算一个好的应用。"
-tags: [iReport, jasperReport]
+title: "正则表达式贪婪、非贪婪模式"
+tagline: "regular expression "
+description: "regular expression -- 贪婪、非贪婪"
+tags: [贪婪、非贪婪]
 ---
 {% include JB/setup %}
 
