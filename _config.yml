@@ -1,6 +1,6 @@
 name: leo 个人站点
 markdown: redcarpet
-pygments: false
+pygments: true
 encoding: utf-8
 #每页文章数
-paginate: 9
+paginate: 15
