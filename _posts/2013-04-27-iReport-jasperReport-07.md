@@ -5,7 +5,6 @@ tagline: "Series of articles of iReport and JasperReport "
 description: "说说jasperReport使用纯API如何构建jasper的"
 tags: [iReport, jasperReport]
 ---
-{% include JB/setup %}
 
 jasperReport的这个包net.sf.jasperreports.engine.design 是这样描述的：  
 `Contains design time implementations for the library's main interfaces as well as report compiling tools.`  

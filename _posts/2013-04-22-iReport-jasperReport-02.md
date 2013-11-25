@@ -5,7 +5,6 @@ tagline: "Series of articles of iReport and JasperReport "
 description: "JasperReport有三个域用来存放、展示数据，Parameter、Field、Variables，这次说说这三个吧！"
 tags: [iReport, jasperReport]
 ---
-{% include JB/setup %}
 
 **JasperReport有三个域用来存放、展示数据，Parameter、Field、Variables，这次说说这三个吧！**
 

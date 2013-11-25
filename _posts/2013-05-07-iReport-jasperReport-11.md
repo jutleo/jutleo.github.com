@@ -5,7 +5,6 @@ tagline: "Series of articles of iReport and JasperReport "
 description: "iReport+jasperReport之JFreeChart（图表报表） 中提到图片控件，下面就看看jasperReport怎样处理图片吧！"
 tags: [iReport, jasperReport]
 ---
-{% include JB/setup %}
 
 说完[iReport+jasperReport之JFreeChart（图表报表）][images_jasper]中提到图片控件，下面就看看jasperReport怎样处理图片吧！
 新建一空白报表，分别画两个静态文本字段和图像控件上去。

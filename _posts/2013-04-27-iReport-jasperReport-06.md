@@ -5,7 +5,6 @@ tagline: "Series of articles of iReport and JasperReport "
 description: "再来说说jasperReport数据源的事情"
 tags: [iReport, jasperReport]
 ---
-{% include JB/setup %}
 
 jasperReport支持多种格式的数据源，CSV(Comma Separated values),是一种用来存储数据的纯文本,文件格式，通常用于电子表格或数据库软件。  
 

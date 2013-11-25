@@ -5,7 +5,6 @@ tagline: "office"
 description: "如何在Word中输入带框的对号（√）"
 tags: [office]
 ---
-{% include JB/setup %}
 
 ##如何在Word中输入带框的对号（√）
 

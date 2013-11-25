@@ -5,7 +5,6 @@ tagline: "first-article-for-jutleo.github.com"
 description: "这是github上面的第一篇文字，这个网站关注很久了，自己写blog的机会很少，平时写写微博，看看新闻，久了发现思维迟钝。同时也是工作需要写设计文档给别人参考，总是反复的修改为达到简单明了的目的......"
 tags: [jutleo, 闲聊, 心情]
 ---
-{% include JB/setup %}
 
 ###引言
 <br/>

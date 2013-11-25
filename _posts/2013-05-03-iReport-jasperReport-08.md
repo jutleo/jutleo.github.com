@@ -5,7 +5,6 @@ tagline: "Series of articles of iReport and JasperReport "
 description: "jasperReport如何扩充逻辑scriptlet"
 tags: [iReport, jasperReport]
 ---
-{% include JB/setup %}
 
 提起scriptlet就不能不联想到它的强大功能，jasperReport也是支持scriptlet的哦，先分析一下JasperReport的API吧！
 在填充报表时scriplet是一个非常有力的工具，JRAbstractScriptlet.java位于net.sf.jasperreports.engine包下是一个抽象类。  

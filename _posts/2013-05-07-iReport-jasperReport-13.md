@@ -5,7 +5,6 @@ tagline: "Series of articles of iReport and JasperReport "
 description: "jasperReport客户端采用applet，applet和activeX插件的区别大家搜一下，有一堆东西可以借鉴。"
 tags: [iReport, jasperReport]
 ---
-{% include JB/setup %}
 
 jasperReport客户端采用applet，applet和activeX插件的区别大家搜一下，有一堆东西可以借鉴。
 下载jasperreports-3.0.0，在相应的sample OR demo（记得不清了）中可以找到jasperReport 实现的客户端打印demo，下来就来分析下具体实现。

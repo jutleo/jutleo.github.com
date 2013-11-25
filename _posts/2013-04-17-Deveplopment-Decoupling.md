@@ -5,7 +5,6 @@ tagline: "Deveplopment Decoupling"
 description: "将一个表单分为模型和UI，数据交互依靠模型交互，只有需要UI更新请求时才会更新视图。"
 tags: [apache proxy]
 ---
-{% include JB/setup %}
 
 ###思考
 

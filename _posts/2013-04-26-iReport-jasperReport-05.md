@@ -5,7 +5,6 @@ tagline: "Series of articles of iReport and JasperReport "
 description: "继上篇bean数据源，如果我们自己定义自己的数据源该如何去写呢？"
 tags: [iReport, jasperReport]
 ---
-{% include JB/setup %}
 
 继[上篇bean数据源][BeanDataSource]，如果我们自己定义自己的数据源该如何去写呢？  
 jasperReport提供了很多的便利去实现自己的DataSource，简单的有三种方式：  

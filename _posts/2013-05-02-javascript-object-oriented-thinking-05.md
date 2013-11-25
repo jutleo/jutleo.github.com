@@ -5,7 +5,6 @@ tagline: "Javascript Object Oriented Thinking"
 description: "javascript对象化的思考,全局导入和全局导出 "
 tags: [javascript]
 ---
-{% include JB/setup %}
 
 ### javascript 面向对象的编程  
   
