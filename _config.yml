@@ -1,6 +1,11 @@
-name: leo 个人站点
+name: leo
+email: jutleo@gmail.com
 markdown: redcarpet
-pygments: true
+pygments: false
 encoding: utf-8
 #每页文章数
-paginate: 15
+paginate: 9
+
+author:
+  name: leo
+  email: jutleo@gmail.com

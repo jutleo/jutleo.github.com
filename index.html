@@ -3,13 +3,23 @@ layout: default
 title: jutleo Site
 ---
 
-<div id="home">
-  <h1>文章列表</h1>
-  <ul class="posts">
-    {% for post in paginator.posts %}
-      <li><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="leo-article-list">
+  {% for post in paginator.posts %}
+    <dl>
+      <dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+      <dd>
+        <div class="leo-newsinfo">
+          <p>
+            {{ post.description }}
+            
+          </p>
+          <p class="leo-read"><a target="_blank" href="{{post.url}}">阅读全文>></a></p>
+          <p class="leo-timer">By {{site.author.name}}  {{post.date | date:"%Y-%m-%d"}}</p>
+        </div>
+      </dd>
+    </dl>
+  {% endfor %}
+
   <div>
   	{% if paginator.previous_page %}
 	  <a href="{{paginator.previous_page_path}}">前一页</a>
