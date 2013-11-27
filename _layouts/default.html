@@ -14,17 +14,20 @@
 
     </head>
     <body>
-      <div class="container_12">
-        <div class="grid_12 alpha">
+      <div class="container">
+        <div class="leo-head">
           {% include head.html %}
         </div>
-        <div class="grid_8 alpha">
-          {{ content }}
+        <div class="leo-body">
+          <div class="leo-body-left">
+            {{ content }}
+          </div>
+          <div class="leo-body-right">
+            right
+          </div>
+          <div class="clear"/>
         </div>
-        <div class="grid_4 omega">
-          <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2975520964&verifier=eac976c7&dpc=1"></iframe>
-        </div>
-        <div class="grid_12 omega">
+        <div class="leo-foot">
           {% include foot.html %}
         </div>
       </div>

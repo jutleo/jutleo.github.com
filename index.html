@@ -11,7 +11,6 @@ title: jutleo Site
         <div class="leo-newsinfo">
           <p>
             {{ post.description }}
-            
           </p>
           <p class="leo-read"><a target="_blank" href="{{post.url}}">阅读全文>></a></p>
           <p class="leo-timer">By {{site.author.name}}  {{post.date | date:"%Y-%m-%d"}}</p>
@@ -19,13 +18,29 @@ title: jutleo Site
       </dd>
     </dl>
   {% endfor %}
-
-  <div>
-  	{% if paginator.previous_page %}
-	  <a href="{{paginator.previous_page_path}}">前一页</a>
-	{% endif %}
-	{% if paginator.next_page %}
-	  <a href="{{paginator.next_page_path}}">后一页</a>
-	{% endif %}
-  </div>
 </div>
+{% if paginator.total_pages > 1 %}
+    <div class="leo-pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
+      {% else %}
+        <span class="leo-pageprv">上一页</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
+      {% else %}
+        <span>下一页</span>
+      {% endif %}
+    </div>
+  {% endif %}

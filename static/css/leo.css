@@ -17,180 +17,50 @@ a,button{cursor:pointer;}
 h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
 del,ins,u,s,a,a:hover{text-decoration:none;}
 body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
-body{background:#f7f7f7;}
+body{background:#fff;}
 a,a:hover{color:#333;}
 /*end reset*/
 
 body {
-	min-width: 960px;
+	text-align:center;
+	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+	background-color: #DDD;
 }
-
-/*960grid css  start
-/* =Containers
---------------------------------------------------------------------------------*/
-.container_12
-{
-	margin-left: auto;
-	margin-right: auto;
+div{
+	text-align: left;
+}
+.clear{
+	clear: both;
+}
+.container{
+	background-color: #fff;
 	width: 960px;
+	min-width: 960px;
+	margin: 2px auto;
 }
+.leo-body{
 
-/* =Grid >> Global
---------------------------------------------------------------------------------*/
-.grid_1,
-.grid_2,
-.grid_3,
-.grid_4,
-.grid_5,
-.grid_6,
-.grid_7,
-.grid_8,
-.grid_9,
-.grid_10,
-.grid_11,
-.grid_12 {
-	display: inline;
+}
+.leo-body-left,.leo-body-right{
 	float: left;
-	margin-left: 5px;
+}
+.leo-body-left{
+	width:630px;
 	margin-right: 5px;
 }
-
-.push_1, .pull_1,
-.push_2, .pull_2,
-.push_3, .pull_3,
-.push_4, .pull_4,
-.push_5, .pull_5,
-.push_6, .pull_6,
-.push_7, .pull_7,
-.push_8, .pull_8,
-.push_9, .pull_9,
-.push_10, .pull_10,
-.push_11, .pull_11 {
-	position: relative;
-}
-
-/* =Grid >> Children (Alpha ~ First, Omega ~ Last)
---------------------------------------------------------------------------------*/
-.alpha {margin-left: 0;}
-.omega {margin-right: 0;}
-
-/* =Grid >> 12 Columns
---------------------------------------------------------------------------------*/
-.container_12 .grid_1 {width: 70px;}
-.container_12 .grid_2 {width: 150px;}
-.container_12 .grid_3 {width: 230px;}
-.container_12 .grid_4 {width: 310px;}
-.container_12 .grid_5 {width: 390px;}
-.container_12 .grid_6 {width: 470px;}
-.container_12 .grid_7 {width: 550px;}
-.container_12 .grid_8 {width: 630px;}
-.container_12 .grid_9 {width: 710px;}
-.container_12 .grid_10 {width: 790px;}
-.container_12 .grid_11 {width: 870px;}
-.container_12 .grid_12 {width: 950px;}
-
-/* =Prefix Extra Space >> 12 Columns
---------------------------------------------------------------------------------*/
-.container_12 .prefix_1 {padding-left: 80px;}
-.container_12 .prefix_2 {padding-left: 160px;}
-.container_12 .prefix_3 {padding-left: 240px;}
-.container_12 .prefix_4 {padding-left: 320px;}
-.container_12 .prefix_5 {padding-left: 400px;}
-.container_12 .prefix_6 {padding-left: 480px;}
-.container_12 .prefix_7 {padding-left: 560px;}
-.container_12 .prefix_8 {padding-left: 640px;}
-.container_12 .prefix_9 {padding-left: 720px;}
-.container_12 .prefix_10 {padding-left: 800px;}
-.container_12 .prefix_11 {padding-left: 880px;}
-
-/* =Suffix Extra Space >> 12 Columns
---------------------------------------------------------------------------------*/
-.container_12 .suffix_1 {padding-right: 80px;}
-.container_12 .suffix_2 {padding-right: 160px;}
-.container_12 .suffix_3 {padding-right: 240px;}
-.container_12 .suffix_4 {padding-right: 320px;}
-.container_12 .suffix_5 {padding-right: 400px;}
-.container_12 .suffix_6 {padding-right: 480px;}
-.container_12 .suffix_7 {padding-right: 560px;}
-.container_12 .suffix_8 {padding-right: 640px;}
-.container_12 .suffix_9 {padding-right: 720px;}
-.container_12 .suffix_10 {padding-right: 800px;}
-.container_12 .suffix_11 {padding-right: 880px;}
-
-/* `Push Space >> 12 Columns
---------------------------------------------------------------------------------*/
-.container_12 .push_1 {left: 80px;}
-.container_12 .push_2 {left: 160px;}
-.container_12 .push_3 {left: 240px;}
-.container_12 .push_4 {left: 320px;}
-.container_12 .push_5 {left: 400px;}
-.container_12 .push_6 {left: 480px;}
-.container_12 .push_7 {left: 560px;}
-.container_12 .push_8 {left: 640px;}
-.container_12 .push_9 {left: 720px;}
-.container_12 .push_10 {left: 800px;}
-.container_12 .push_11 {left: 880px;}
-
-/* `Pull Space >> 12 Columns
---------------------------------------------------------------------------------*/
-.container_12 .pull_1 {left: -80px;}
-.container_12 .pull_2 {left: -160px;}
-.container_12 .pull_3 {left: -240px;}
-.container_12 .pull_4 {left: -320px;}
-.container_12 .pull_5 {left: -400px;}
-.container_12 .pull_6 {left: -480px;}
-.container_12 .pull_7 {left: -560px;}
-.container_12 .pull_8 {left: -640px;}
-.container_12 .pull_9 {left: -720px;}
-.container_12 .pull_10 {left: -800px;}
-.container_12 .pull_11 {left: -880px;}
-
-/* `Clear Floated Elements
-----------------------------------------------------------------------------------------------------*/
-/* http://sonspring.com/journal/clearing-floats */
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
-/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
-.clearfix:before,
-.clearfix:after {
-	content: "\0020";
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-.clearfix:after {
-	clear: both;
-}
-/*
-The following zoom:1 rule is specifically for IE6 + IE7.
-Move to separate stylesheet if invalid CSS is a problem.
-*/
-.clearfix {
-	zoom: 1;
-}
-
-/*960grid css  end*/
-.container_12{
-	background-color: #fff;
-}
-.leo-article-list{
-	background-color: #fff;
+.leo-body-right{
+	border-radius: 5px;
+	width:310px;
+	float: right;
+	height: 200px;
+	border: 1px solid red;
 }
 .leo-article-list dl{
     border: 1px solid #ddd;
     border-width: 1px;
-    height: 110px;
-    margin: 3px 0px;
     border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
 }
 .leo-article-list dl:hover{
 	border: 1px solid #FFCC66;
@@ -211,14 +81,14 @@ Move to separate stylesheet if invalid CSS is a problem.
 	font-size: 14px;
 	padding-right: 15px;
 	text-align: right;
-	margin-top: 8px;
+	margin-top: 5px;
 }
 .leo-timer{
 	color: #999999;
 	font-size: 12px;
 	padding-right: 15px;
 	text-align: right;
-	margin-top: 2px;
+	margin: 2px 0px 5px;
 }
 a {
     color: #000000;
@@ -234,7 +104,34 @@ a {
 	padding-left: 15px;
 	color: #999999;
 }
-
+.leo-pagination{
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin: 5px 0px;
+}
+.leo-pagination a,span,em{
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	margin: 0 3px;
+	padding: 0 6px;
+	height: 22px;
+}
+.leo-pagination a{
+	color: #3399CC;
+}
+.leo-pagination a:hover{
+	background-color: #F5F5F5;
+}
+.leo-pagination span{
+	color: #CCCCCC;
+}
+.leo-pagination em{
+	background-color: #F5F5F5;
+	color: #999;
+	cursor: default;
+}
 
 /* debug css*/
 .bg{
