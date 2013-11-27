@@ -37,12 +37,14 @@ div{
 	width: 960px;
 	min-width: 960px;
 	margin: 2px auto;
+	box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 }
 .leo-body{
 
 }
 .leo-body-left,.leo-body-right{
 	float: left;
+	box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 }
 .leo-body-left{
 	width:630px;
@@ -110,7 +112,7 @@ a {
 	font-size: 12px;
 	margin: 5px 0px;
 }
-.leo-pagination a,span,em{
+.leo-pagination a,.leo-pagination span,.leo-pagination em{
 	display: inline-block;
 	border: 1px solid #DDDDDD;
 	border-radius: 5px;
@@ -131,6 +133,21 @@ a {
 	background-color: #F5F5F5;
 	color: #999;
 	cursor: default;
+}
+.leo-articel-title{
+	font-size: 22px;
+	padding:5px 20px 2px;
+}
+.leo-protect{
+	background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 20px;
+    text-indent: 0;
+}
+.post{
+	margin-left: 5px;
 }
 
 /* debug css*/
