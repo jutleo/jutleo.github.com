@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport之客户端打印"
 tagline: "Series of articles of iReport and JasperReport "
 description: "jasperReport客户端采用applet，applet和activeX插件的区别大家搜一下，有一堆东西可以借鉴。"
+category: iReport
 tags: [iReport, jasperReport]
 ---
 

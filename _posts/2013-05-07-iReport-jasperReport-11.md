@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport之图片控件"
 tagline: "Series of articles of iReport and JasperReport "
 description: "iReport+jasperReport之JFreeChart（图表报表） 中提到图片控件，下面就看看jasperReport怎样处理图片吧！"
+category: iReport
 tags: [iReport, jasperReport]
 ---
 

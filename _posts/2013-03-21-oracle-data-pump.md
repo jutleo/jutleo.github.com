@@ -3,6 +3,7 @@ layout: post
 title: "oracle数据的导入导出"
 tagline: "Oracle Data Pump"
 description: "帮测试组导数据，顺便整理下Oracle导入导出的命令以备后用"
+category: db
 tags: [Data Pump]
 ---
 

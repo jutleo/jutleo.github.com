@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport之i18n国际化支持"
 tagline: "Series of articles of iReport and JasperReport "
 description: "jasperReport对国际化的支持是很到位的，但是国内基本不怎么使用，下来看看国际化的使用吧！"
+category: iReport
 tags: [iReport, jasperReport]
 ---
 

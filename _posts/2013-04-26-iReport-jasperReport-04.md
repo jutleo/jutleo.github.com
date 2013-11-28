@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport之BEAN数据源"
 tagline: "Series of articles of iReport and JasperReport "
 description: "上篇中，我们提到使用的JDBC数据源，本篇来看看如何使用BEAN数据源！"
+category: iReport
 tags: [iReport, jasperReport]
 ---
 

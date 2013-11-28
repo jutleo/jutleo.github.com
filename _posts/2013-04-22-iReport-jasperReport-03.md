@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport之JDBC数据源"
 tagline: "Series of articles of iReport and JasperReport "
 description: "iReport画出来的报表可以满足我们大部分的需要，所以采用iReport 编辑jrxml文件是我们的首选啦！当然掌握jrxml文件的结构也是必须的。采用JDBC数据源必须有数据库支持啊！"
+category: iReport
 tags: [iReport, jasperReport]
 ---
 

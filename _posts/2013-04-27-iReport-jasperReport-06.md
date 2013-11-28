@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport之CSV、XML数据源"
 tagline: "Series of articles of iReport and JasperReport "
 description: "再来说说jasperReport数据源的事情"
+category: iReport
 tags: [iReport, jasperReport]
 ---
 

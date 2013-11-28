@@ -3,6 +3,7 @@ layout: post
 title: "如何在Word中输入带框的对号（√）"
 tagline: "office"
 description: "如何在Word中输入带框的对号（√）"
+category: office
 tags: [office]
 ---
 

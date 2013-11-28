@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "正则表达式贪婪、非贪婪模式"
-tagline: "regular expression "
+tagline: "regular expression"
+categories: blog
 description: "regular expression -- 贪婪、非贪婪"
 tags: [贪婪、非贪婪]
 ---

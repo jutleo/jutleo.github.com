@@ -3,6 +3,7 @@ layout: post
 title: "谈谈前端开发中的解耦"
 tagline: "Deveplopment Decoupling"
 description: "将一个表单分为模型和UI，数据交互依靠模型交互，只有需要UI更新请求时才会更新视图。"
+category: javascript
 tags: [apache proxy]
 ---
 

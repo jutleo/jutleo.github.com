@@ -32,30 +32,28 @@ div{
 .clear{
 	clear: both;
 }
+.leo-body-left,.leo-body,.leo-article-category{
+	box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
+}
 .container{
 	background-color: #fff;
 	width: 960px;
 	min-width: 960px;
 	margin: 2px auto;
-	box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 }
 .leo-body{
 
 }
-.leo-body-left,.leo-body-right{
+.leo-body-left{
 	float: left;
-	box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 }
 .leo-body-left{
 	width:630px;
 	margin-right: 5px;
 }
 .leo-body-right{
-	border-radius: 5px;
 	width:310px;
 	float: right;
-	height: 200px;
-	border: 1px solid red;
 }
 .leo-article-list dl{
     border: 1px solid #ddd;
@@ -149,7 +147,31 @@ a {
 .post{
 	margin-left: 5px;
 }
-
+.leo-article-category{
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.leo-article-category h2{
+	border-bottom: 1px solid #D2D2D2;
+	padding-left: 10px;
+    height: 27px;
+    margin-bottom: 4px;
+    color: #003366;
+    font-size: 16px;
+    font-weight: 700;
+}
+.leo-article-category ul{
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.leo-article-category ul li{
+	border-bottom: 2px dotted #DDDDDD;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
 /* debug css*/
 .bg{
 	background-color: #FFFFCC;

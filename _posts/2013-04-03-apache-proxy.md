@@ -3,6 +3,7 @@ layout: post
 title: "apache反向代理"
 tagline: "apche proxy"
 description: "代理的作用就是将客户机的请求提交到目的服务器，等到目的服务器响应后再返给客户机。代理可以做哪些事情？通常我们说的正向代理和反向代理有啥区别？"
+category: server
 tags: [apache proxy]
 ---
 

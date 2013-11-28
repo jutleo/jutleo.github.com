@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport概念的澄清"
 tagline: "Series of articles of iReport and JasperReport "
 description: "项目中学到的一些jasperReport的东东,先说点基础的概念吧！ "
+category: iReport
 tags: [iReport, jasperReport]
 ---
 

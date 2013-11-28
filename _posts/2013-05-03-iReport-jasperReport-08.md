@@ -3,6 +3,7 @@ layout: post
 title: "iReport+jasperReport之scriptlet"
 tagline: "Series of articles of iReport and JasperReport "
 description: "jasperReport如何扩充逻辑scriptlet"
+category: iReport
 tags: [iReport, jasperReport]
 ---
 
