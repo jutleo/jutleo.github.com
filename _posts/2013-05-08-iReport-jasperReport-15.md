@@ -4,7 +4,7 @@ title: "iReport+jasperReport之客户端打印 (续二) ----数字签名"
 tagline: "Series of articles of iReport and JasperReport "
 description: "接着上篇，jasperReport 实现客户端主要是依靠applet，但是我们所有的操作不可能在applet中实现吧，这样也不算一个好的应用。"
 category: iReport
-tags: [iReport, jasperReport]
+tags: iReport、jasperReport
 ---
 
 接着上篇，Java沙箱是运行Java小应用程序的一个软件单元。对Java小应用程序的访问权限加以限制，防止它访问计算机的关键部分。

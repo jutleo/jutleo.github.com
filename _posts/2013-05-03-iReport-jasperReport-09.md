@@ -4,7 +4,7 @@ title: "iReport+jasperReport之scriptlet（续）"
 tagline: "Series of articles of iReport and JasperReport "
 description: "iReport+jasperReport之scriptlet（续）"
 category: iReport
-tags: [iReport, jasperReport]
+tags: iReport、jasperReport
 ---
 
 写上篇[iReport+jasperReport之scriptlet][scriptlet]时遗漏了一个问题，getParameterValue、setParameterValue方法可以操作Parameter,Field/Variable该怎么set呢？

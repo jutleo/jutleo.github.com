@@ -4,7 +4,7 @@ title: "iReport+jasperReport之i18n国际化支持"
 tagline: "Series of articles of iReport and JasperReport "
 description: "jasperReport对国际化的支持是很到位的，但是国内基本不怎么使用，下来看看国际化的使用吧！"
 category: iReport
-tags: [iReport, jasperReport]
+tags: iReport、jasperReport
 ---
 
 新建一空白报表，还是和以前一致 添加reportTitle参数，添加一个图片控件、几个textField控件用来显示国际化内容：  

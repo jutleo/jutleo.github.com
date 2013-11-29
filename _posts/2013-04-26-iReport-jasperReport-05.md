@@ -4,7 +4,7 @@ title: "iReport+jasperReport之BEAN数据源(续)"
 tagline: "Series of articles of iReport and JasperReport "
 description: "继上篇bean数据源，如果我们自己定义自己的数据源该如何去写呢？"
 category: iReport
-tags: [iReport, jasperReport]
+tags: iReport、jasperReport
 ---
 
 继[上篇bean数据源][BeanDataSource]，如果我们自己定义自己的数据源该如何去写呢？  

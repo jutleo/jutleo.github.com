@@ -4,7 +4,7 @@ title: "iReport+jasperReport之NoXML"
 tagline: "Series of articles of iReport and JasperReport "
 description: "说说jasperReport使用纯API如何构建jasper的"
 category: iReport
-tags: [iReport, jasperReport]
+tags: iReport、jasperReport
 ---
 
 jasperReport的这个包net.sf.jasperreports.engine.design 是这样描述的：  

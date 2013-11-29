@@ -4,7 +4,7 @@ title: "iReport+jasperReport之JFreeChart（图表报表）"
 tagline: "Series of articles of iReport and JasperReport "
 description: "jasperReport的图表完全借助于外部的绘图工具，charts和JFreeChart,其中JFreeChart是目前java最火的一个绘图工具了，还是引用JFreeChart简单使用 来实现我们的图表吧"
 category: iReport
-tags: [iReport, jasperReport]
+tags: iReport、jasperReport
 ---
 
 说完[iReport+jasperReport之scriptlet](http://jutleo.github.io/2013/05/03/iReport-jasperReport-08/) 下来就得看看图表了。

@@ -18,13 +18,13 @@ h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
 del,ins,u,s,a,a:hover{text-decoration:none;}
 body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
 body{background:#fff;}
-a,a:hover{color:#333;}
+a,a:hover{color:#333;cursor: pointer;text-decoration: none;}
 /*end reset*/
 
 body {
 	text-align:center;
 	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
-	background-color: #DDD;
+	background-color: #f9f9f9;
 }
 div{
 	text-align: left;
@@ -33,10 +33,9 @@ div{
 	clear: both;
 }
 .leo-body-left,.leo-body,.leo-article-category{
-	box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
 }
 .container{
-	background-color: #fff;
 	width: 960px;
 	min-width: 960px;
 	margin: 2px auto;
@@ -55,15 +54,18 @@ div{
 	width:310px;
 	float: right;
 }
+.leo-article-list{
+	background-color: #CCCCCC;
+}
 .leo-article-list dl{
-    border: 1px solid #ddd;
+    border: 1px solid #CCC;
     border-width: 1px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+    border-radius: 0 0 30px 5px;
+    margin-bottom: 10px;
     background-color: #fff;
 }
 .leo-article-list dl:hover{
-	border: 1px solid #FFCC66;
+	border: 1px solid #F1F1F1;
 }
 .leo-article-list dt{
 	height: 32px;
@@ -91,25 +93,21 @@ div{
 	text-align: right;
 	margin: 2px 0px 5px;
 }
-a {
-    color: #000000;
-    cursor: pointer;
-    text-decoration: none;
-}
 .leo-article-list dt a {
 	color: #003366;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 .leo-article-list dd{
 	padding-left: 15px;
-	color: #999999;
+	color: #555555;
 }
 .leo-pagination{
 	height: 22px;
 	line-height: 22px;
-	font-size: 12px;
-	margin: 5px 0px;
+	font-size: 14px;
+	margin: 10px 0px;
+	text-align: center;
 }
 .leo-pagination a,.leo-pagination span,.leo-pagination em{
 	display: inline-block;
@@ -151,6 +149,7 @@ a {
 .leo-article-category{
 	border-radius: 10px;
 	border: 1px solid #ddd;
+	background-color: #FFFFFF;
 	margin-bottom: 10px;
 }
 .leo-article-category h2{
@@ -172,6 +171,47 @@ a {
     padding-left: 10px;
     font-size: 14px;
     padding-bottom: 5px;
+}
+.leo-article-category ul li a{
+	color: #0196E3;
+}
+.leo-head{
+	text-align: center;
+	background-color: #428BCA;
+	margin: 1px auto;
+}
+.leo-nav{
+	height: 40px;
+	line-height: 40px;
+    text-align: center;
+}
+.leo-nav li{
+	display: inline-block;
+}
+.leo-nav-item{
+	color: #FFFFFF;
+	font-size: 18px;
+	display: inline-block;
+	font-weight: bold;
+    padding: 0 20px;
+	height: 25px;
+	line-height: 25px;
+	margin: 5px 0px;
+	border-right: 1px solid #fff;
+}
+.last{
+	border-right: none;
+}
+.leo-foot{
+	border-top: 1px solid #DDDDDD;
+    clear: both;
+    width: 100%;
+    margin: 20px 0px;
+}
+.leo-foot p {
+	color: #888888;
+    font-size: 11px;
+    text-align: center;
 }
 /* debug css*/
 .bg{

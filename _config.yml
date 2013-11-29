@@ -9,3 +9,16 @@ paginate: 9
 author:
   name: leo
   email: jutleo@gmail.com
+menuitems:
+- name:     首页
+  url:      /
+  class:    leo-nav-item
+- name:     分类
+  url:      /category.html
+  class:    leo-nav-item
+- name:     豆豆
+  url:      /andy.html
+  class:    leo-nav-item
+- name:     联系我
+  url:      /contant.html
+  class:    leo-nav-item last

@@ -4,7 +4,7 @@ title: "iReport+jasperReport之BEAN数据源"
 tagline: "Series of articles of iReport and JasperReport "
 description: "上篇中，我们提到使用的JDBC数据源，本篇来看看如何使用BEAN数据源！"
 category: iReport
-tags: [iReport, jasperReport]
+tags: iReport、jasperReport
 ---
 
 JasperFillManager.fillReport()这个方法在使用[JDBC数据源][jdbcDataSource]时采用一个打开的数据库连接(getConn),除此之外jasperReport给我们提供了一个JRDataSource接口，
