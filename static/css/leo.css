@@ -207,6 +207,8 @@ div{
     clear: both;
     width: 100%;
     margin: 20px 0px;
+    position: absolute;
+    bottom: 0px;
 }
 .leo-foot p {
 	color: #888888;
