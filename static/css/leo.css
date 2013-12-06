@@ -145,6 +145,10 @@ div{
 }
 .post{
 	margin-left: 5px;
+	padding: 0 5px;
+}
+.post p {
+	margin: 8px 0px;
 }
 .leo-article-category{
 	border-radius: 10px;
@@ -179,6 +183,7 @@ div{
 	text-align: center;
 	background-color: #428BCA;
 	margin: 1px auto;
+	margin-bottom: 8px;
 }
 .leo-nav{
 	height: 40px;
