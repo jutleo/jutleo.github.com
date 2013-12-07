@@ -13,7 +13,8 @@ title: jutleo Site
             {{ post.description }}
           </p>
           <p class="leo-read"><a target="_blank" href="{{post.url}}">阅读全文>></a></p>
-          <p class="leo-timer">By {{site.author.name}}  {{post.date | date:"%Y-%m-%d"}}</p>
+          <p class="leo-timer">标签：{{post.tags}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By {{site.author.name}}  {{post.date | date:"%Y-%m-%d"}}</p>
+          <p class="leo-timer"></p>
         </div>
       </dd>
     </dl>
@@ -21,6 +22,7 @@ title: jutleo Site
 </div>
 {% if paginator.total_pages > 1 %}
     <div class="leo-pagination">
+      <em>{{paginator.total_pages}}页</em>
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
       {% else %}
@@ -44,3 +46,10 @@ title: jutleo Site
       {% endif %}
     </div>
   {% endif %}
+
+  <div class="tagcloud">
+
+  {%for tag in site.tags%}
+<a href="{{site.url}}#{{tag[0]}}">{{site.tags.TAG}}</a>
+{%endfor%}
+</div>
