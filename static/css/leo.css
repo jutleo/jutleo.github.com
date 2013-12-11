@@ -237,6 +237,15 @@ div{
 	color:#333333;
 	margin-left: 5px;
 }
+.leo-category{
+	padding: 0px 10px;
+}
+.leo-article{
+	border-bottom: 2px dotted #CCCCCC;
+}
+.leo-category-title{
+	font-size: 21px;
+}
 /* debug css*/
 .bg{
 	background-color: #FFFFCC;

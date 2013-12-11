@@ -13,7 +13,7 @@ menuitems:
 - name:     首页
   url:      /
   class:    leo-nav-item
-- name:     分类
+- name:     归档
   url:      /category.html
   class:    leo-nav-item
 - name:     豆豆
