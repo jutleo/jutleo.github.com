@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "写给过去一年的自己"
+title: "写给2013年的自己"
 tagline: "2013年发生了很多事情，一路走来自有自己最清楚。"
 categories: life
 description: "&emsp;写给过去的2013年，爱恨情仇，用一个成熟的心态去看问题。"
