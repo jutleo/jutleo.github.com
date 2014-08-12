@@ -3,7 +3,7 @@ layout: post
 title: "spring security CAS集成"
 tagline: "spring securiy自我理解，及如何解决实际问题"
 categories: spring
-description: "&emsp;系统中用到spring security框架，集成开源cas实现单点登录"
+description: "&emsp;系统中用到spring security框架，集成开源cas实现单点登录 -- CAS集成"
 tags: spring 
 ---
 ##开篇
