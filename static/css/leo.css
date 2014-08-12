@@ -209,9 +209,9 @@ div{
 }
 .leo-foot{
 	border-top: 1px solid #DDDDDD;
-    clear: both;
-    width: 100%;
-    margin: 20px 0px;
+	clear: both;
+	width: 100%;
+	margin: 20px 10px;
 }
 .leo-foot p {
 	color: #888888;
