@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<div class="leo-category">
 {% for post in site.posts %}
    {% unless post.next %}
      <h1 class="leo-category-title">{{ post.date | date: '%Y年' }}</h1>
@@ -18,4 +17,3 @@ layout: default
        <a href="{{ post.url }}">{{ post.title }}</a>
    </div>
 {% endfor %}
-</div>

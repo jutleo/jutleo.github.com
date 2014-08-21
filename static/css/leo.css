@@ -75,7 +75,7 @@ div{
 	margin-bottom: 5px;
 	padding-left: 10px;
 	border-bottom: 1px dotted #ddd;
-	background-color: #F9F9F9
+	background-color: #eee
 }
 .leo-newsinfo{
     font-size: 14px;
@@ -96,8 +96,7 @@ div{
 }
 .leo-article-list dt a {
 	color: #003366;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 14px;
 }
 .leo-article-list dd{
 	padding-left: 15px;
@@ -133,8 +132,8 @@ div{
 	cursor: default;
 }
 .leo-articel-title{
-	font-size: 22px;
-	padding:5px 20px 2px;
+	font-size: 16px;
+	padding:20px;
 }
 .leo-protect{
 	background-color: #F9F9F9;
@@ -146,13 +145,14 @@ div{
 }
 .post{
 	margin-left: 5px;
-	padding: 0 5px;
+	margin-right: 5px;
+	padding: 0px 5px 15px 5px;
 }
 .post p {
 	margin: 8px 0px;
 }
 .leo-article-category{
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 1px solid #ddd;
 	background-color: #FFFFFF;
 	margin-bottom: 10px;
@@ -238,10 +238,15 @@ div{
 	margin-left: 5px;
 }
 .leo-category{
-	padding: 0px 10px;
+	background-color: white;
+	border: 1px solid #eee;
 }
 .leo-article{
-	border-bottom: 2px dotted #CCCCCC;
+	border-bottom: 1px dotted #CCCCCC;
+	padding-left: 10px;
+}
+.leo-article:hover{
+	background-color: #F5F5F5;
 }
 .leo-category-title{
 	font-size: 21px;
