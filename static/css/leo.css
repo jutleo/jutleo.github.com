@@ -23,8 +23,9 @@ a,a:hover{color:#333;cursor: pointer;text-decoration: none;}
 
 body {
 	text-align:center;
-	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 	background-color: #f9f9f9;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
 }
 div{
 	text-align: left;
