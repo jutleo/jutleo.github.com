@@ -4,10 +4,11 @@ title: "spring security 基础"
 tagline: "spring securiy自我理解，及如何解决实际问题"
 categories: spring
 description: "&emsp;系统中用到spring security框架，集成开源cas实现单点登录"
-tags: spring 
+tags: [spring] 
 ---
-##开篇
 &emsp;如果你对`spring security`有疑问，请先阅读官方文档，由于本文提到的`spring security`是基于2.0.8版本的，可能跟最新3的版本有出入，请自行查阅文档，思路都是想通的。
+
+<!-- more -->
 
 ##说明
 &emsp;`spring security`是基于`spring AOP` 和 `Servlet`的安全过滤框架，基于Web请求访问和方法调用处理身份验证和授权。试想它出现在系统中的原因及作用？

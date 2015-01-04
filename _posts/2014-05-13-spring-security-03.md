@@ -4,10 +4,11 @@ title: "spring security CAS集成"
 tagline: "spring securiy自我理解，及如何解决实际问题"
 categories: spring
 description: "&emsp;系统中用到spring security框架，集成开源cas实现单点登录 -- CAS集成"
-tags: spring 
+tags: [spring] 
 ---
-##开篇
 &emsp;接上篇，`spring security`如何和`cas`集成？spring-security自己实现了cas的整合，建spring-security-cas jar源码
+
+<!-- more -->
 
 ##先看一个完整的配置
 	

@@ -1,25 +1,24 @@
-name: leo
-email: jutleo@gmail.com
-markdown: redcarpet
-pygments: false
-permalink: /:year/:month/:day/:title
-encoding: utf-8
-#每页文章数
+#production_url是sitemap.txt生成的url,方便百度谷歌收录
+production_url: http://liyouhai.com
+author: leo
+description: 看山还是山
+#
+# Jekyll Settings
+#
+#rdiscount解析器对于嵌入html javascript代码,为文章增加特定效果兼容较好
+markdown: rdiscount
+rdiscount:
+  extensions: [  "autolink", ]
+markdown_ext:  markdown,mkd,mkdn,md
+highlighter: pygments
+permalink: /:categories/:title.html
 paginate: 9
-
-author:
-  name: leo
-  email: jutleo@gmail.com
-menuitems:
-- name:     首页
-  url:      /
-  class:    leo-nav-item
-- name:     归档
-  url:      /category.html
-  class:    leo-nav-item
-- name:     豆豆
-  url:      /andy.html
-  class:    leo-nav-item
-- name:     联系我
-  url:      /contant.html
-  class:    leo-nav-item last
+paginate_path: "page/:num"
+exclude: [ "README.md",".idea",".iml",".name",".Node"]
+encoding: "utf-8"
+#在发布文章时使用一个未来的日期
+future: true
+#产生相关页面的索引
+lsi:      false
+#禁用定制插件
+safe:     false

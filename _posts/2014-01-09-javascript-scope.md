@@ -3,12 +3,15 @@ layout: post
 title: "javascript高级特性 -- 作用域"
 tagline: "学习任何语言都离不开变量的作用域"
 categories: javascript
-description: "&emsp;学习任何语言都离不开作用域的概念。作用域规范了变量的可见范围及生命周期。正确的理解作用域可以减少程序出错的几率，使代码更优雅，可读，易懂。而且还会减少命名冲突，有利于垃圾回收。总之好处多多啦，还是来看看javascript中的作用域吧！"
-tags: javascript 
+description: "学习任何语言都离不开作用域的概念。作用域规范了变量的可见范围及生命周期。正确的理解作用域可以减少程序出错的几率，使代码更优雅，可读，易懂。而且还会减少命名冲突，有利于垃圾回收。总之好处多多啦，还是来看看javascript中的作用域吧！"
+tags: [javascript] 
 ---
 
 &emsp;作用域在javascript中分为全局作用域和局部作用域，而局部作用域其实指得就是函数作用域，javascript将函数作为作用域的最小范围。
-######全局作用域 Global Scope
+
+<!-- more -->
+
+###全局作用域 Global Scope
 &emsp;在代码的任何地方都可以访问到的对象，比如window对象及window对象的属性，就拥有全局作用域。  
 1、在最外层定义的变量，默认都是window对象的属性；  
 2、未定义的变量默认都是全局的，默认也都是window对象的属性； 这一条是经常犯的错误,但是新版浏览器已经修复了这个问题！   
@@ -29,7 +32,7 @@ tags: javascript
     changeName();
     // getName();//报错
 
-######局部作用域/函数作用域(Local Scope/Function Scope)
+###局部作用域/函数作用域(Local Scope/Function Scope)
 &emsp;在函数中定义一个变量时，这个变量只对当前函数可见,javascript会搜索当前函数的作用域，如果没有找到，则继续向上层搜索，直到在全局作用域也没有找到会返回undefined；
     
     var version = "version_1";

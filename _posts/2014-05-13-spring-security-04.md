@@ -3,12 +3,14 @@ layout: post
 title: "spring security 自定义认证实现"
 tagline: "spring securiy自我理解，及如何解决实际问题"
 categories: spring
-description: "&emsp;系统中用到spring security框架，集成开源cas实现单点登录 -- 三方认证"
-tags: spring 
+description: "系统中用到spring security框架，集成开源cas实现单点登录 -- 三方认证"
+tags: [spring] 
 ---
 ##开篇
 &emsp;接上篇，`spring security`为我们实现了基于cas的认证，但是在实际项目中经常会遇到非cas的情况，这就需要我们基于spring security
 实现自定义的认证，所谓自定义认证即可以自由扩展实现和第三方的SSO、SAM等无缝对接认证。  
+
+<!-- more -->
 
 &emsp;本文的前提是你对`spring security`有一定的理解，请参阅之前提到的`spring security`理论，或者查阅官方文档，记得本系列是在2.0.8基础上
 做说明。如果是3.x版本会有小的差异。  

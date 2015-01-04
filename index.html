@@ -1,55 +1,51 @@
 ---
-layout: default
-title: jutleo Site
+layout: blog
+description: ""
+title: jutleo
+tags : [ 原创 ,博客,技术博文,web开发,J2EE开发者,曾经不知你好]
 ---
-   
-<div class="leo-article-list">
-  {% for post in paginator.posts %}
-    <dl>
-      <dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-      <dd>
-        <div class="leo-newsinfo">
-          <p>
-            {{ post.description }}
-          </p>
-          <p class="leo-read"><a target="_blank" href="{{post.url}}">阅读全文>></a></p>
-          <p class="leo-timer">标签：{{post.tags}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by {{site.author.name}}  {{post.date | date:"%Y-%m-%d"}}</p>
-          <p class="leo-timer"></p>
+
+{% for post in paginator.posts %}
+    <section class="post">
+        <header class="post-header">
+            <img class="post-avatar" height="48" width="48" src="/static/images/leo.jpg"> 
+
+            <h2 class="post-title"><a href="{{ post.url }}" class="postTitle">{{ post.title }}</a></h2>
+
+            <p class="post-meta">by {{site.author}} {{ post.date | date: "%Y-%m-%d" }}
+            <a
+                    class="post-categorybut " href="/type/#{{ post.categories  }}">{{ post.categories }}</a>
+            </p>
+        </header>
+
+        <div class="post-description">
+            {{ post.content | split:'<!-- more -->'| first }}
+            <a href="{{ post.url }}" class="readpage">阅读全文</a>
         </div>
-      </dd>
-    </dl>
-  {% endfor %}
+    </section>
+{% endfor %}
+
+<div class="pure-g pagination">
+    {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+    <a class="pure-u-1-2 pagination-item" href="/"><p>Newer</p></a>
+    {% else %}
+    <a class=" pure-u-1-2 pagination-item" href="/page/{{paginator.previous_page}}"><p>Newer</p></a>
+    {% endif %}
+    {% else %}
+    <span class=" pure-u-1-2 pagination-item"><p>Newer</p></span>
+    {% endif %}
+
+
+    {% if paginator.next_page %}
+    <a class=" pure-u-1-2 pagination-item" href="/page/{{paginator.next_page}}"><p>Older</p></a>
+    {% else %}
+    <span class=" pure-u-1-2 pagination-item"><p>Older</p></span>
+    {% endif %}
 </div>
-{% if paginator.total_pages > 1 %}
-    <div class="leo-pagination">
-      <em>{{paginator.total_pages}}页</em>
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
-      {% else %}
-        <span class="leo-pageprv">上一页</span>
-      {% endif %}
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <em>{{ page }}</em>
-        {% elsif page == 1 %}
-          <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
 
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
-      {% else %}
-        <span>下一页</span>
-      {% endif %}
-    </div>
-  {% endif %}
 
-  <div class="tagcloud">
 
-  {%for tag in site.tags%}
-<a href="{{site.url}}#{{tag[0]}}">{{site.tags.TAG}}</a>
-{%endfor%}
-</div>
+
+

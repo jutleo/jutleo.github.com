@@ -4,10 +4,11 @@ title: "spring security 自定义UserDetailsService"
 tagline: "spring securiy自我理解，及如何解决实际问题"
 categories: spring
 description: "&emsp;系统中用到spring security框架，集成开源cas实现单点登录 -- 自定义UserDetailsService"
-tags: spring 
+tags: [spring] 
 ---
-##开篇
 &emsp;接上篇，一般系统的权限设计不仅仅是`spring security`为我们提供的那么简单，当需要定制时如何处理？
+
+<!-- more -->
 
 ##原理
 &emsp;上篇提到，`spring`默认为我们提供了`UserDetailsService`的实现`JdbcDaoImpl`，用来实现用户信息、权限信息的加载，而加载的过程也不需要我们干预，只需要配置简单的
