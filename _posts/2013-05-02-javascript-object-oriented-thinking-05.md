@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "javascript 对象化的思考再议 -- 全局导入导出"
-tagline: "Javascript Object Oriented Thinking"
-description: "javascript对象化的思考,全局导入和全局导出 "
+category: javascript
 tags: [javascript]
 ---
 
