@@ -38,4 +38,4 @@ ok！这个就不用解释了吧！试试就知道啦
 关于jasperReport图片处理很简单google一下很多啊，最近又开始忙了突然想起上篇遗留这个问题，
 所以抽空写下来，算是对上篇的一个补充吧！以后有时间会继续写下去，国际化、corsstab、web端打印、纯java定制复杂报表等。
 	
-[images_jasper]: http://jutleo.github.io/2013/05/07/iReport-jasperReport-11/
+[images_jasper]: http://jutleo.github.io/2013/05/03/iReport-jasperReport-10/

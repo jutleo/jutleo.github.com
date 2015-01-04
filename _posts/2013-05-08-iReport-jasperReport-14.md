@@ -180,5 +180,4 @@ tags: [iReport,jasperReport]
 编译、填充、生成JasperPrint对象、预览或打印  
 上篇有人提到[打印和预览实现动态控制套打背景][images_jasper],建议你多看看 iReport+jasperReport之图片控件。  
 实现原理是一样的，只是把JasperPrint在客户端处理了一下哦。
-
-[images_jasper]: http://jutleo.github.io/2013/05/03/iReport-jasperReport-11.html/
+[images_jasper]: http://jutleo.github.io/2013/05/07/iReport-jasperReport-13/
