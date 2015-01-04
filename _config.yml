@@ -11,7 +11,8 @@ rdiscount:
   extensions: [  "autolink", ]
 markdown_ext:  markdown,mkd,mkdn,md
 highlighter: pygments
-permalink: /:categories/:title.html
+# permalink: /:categories/:title.html
+permalink: /:year/:month/:day/:title
 paginate: 9
 paginate_path: "page/:num"
 exclude: [ "README.md",".idea",".iml",".name",".Node"]

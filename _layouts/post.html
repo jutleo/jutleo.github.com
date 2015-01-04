@@ -89,6 +89,7 @@
                     {{ content }}
                 </div>
                 <div class="pure-g pagination">
+                    {{post}}
                     {% if page.previous %}
                     <a class="pure-u-1-2 pagination-item " href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }} "><p> <i class="fa fa-mail-reply"></i>&nbsp;{{ page.previous.title }}</p></a>
                     {% else %}
