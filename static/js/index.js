@@ -3,26 +3,25 @@ $(function(){
     var dayweek=new Date().getDay();
     switch (dayweek) {
         case 0:
-            $('.sidebar,.search-query').css({  "background": "#4b4b49" });
+            $('.sidebar,.search-query').css({  "background": "rgba(75, 75, 73, 0.8)" });
             break;
         case 1:
-            $('.sidebar,.search-query').css({  "background": "#1c5461" });
+            $('.sidebar,.search-query').css({  "background": "rgba(28, 84, 97, 0.8)" });
             break;
         case 2:
-            $('.sidebar,.search-query').css({  "background": "#3D4F5D" });
+            $('.sidebar,.search-query').css({  "background": "rgba(61, 79, 93, 0.8)" });
             break;
         case 3:
-            $('.sidebar,.search-query').css({  "background": "#273e38" });
+            $('.sidebar,.search-query').css({  "background": "rgba(39, 62, 56, 0.8)" });
             break;
         case 4:
-            $('.sidebar,.search-query').css({  "background": "#3D4F5D" });
-            //"color": "#ff0011",parseInt(6*Math.random())
+            $('.sidebar,.search-query').css({  "background": "rgba(61, 79, 93, 0.8)" });
             break;
         case 5:
-            $('.sidebar,.search-query').css({  "background": "#3D4F5D" });
+            $('.sidebar,.search-query').css({  "background": "rgba(61, 79, 93, 0.8)" });
             break;
         case 6:
-            $('.sidebar,.search-query').css({  "background": "#3D4F5D" });
+            $('.sidebar,.search-query').css({  "background": "rgba(61, 79, 93, 0.8)" });
             break;
     }
     //主题星期变换颜色结束

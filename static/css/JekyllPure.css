@@ -313,11 +313,16 @@ a.pagination-item:hover {
     color: #ffffff;
     text-decoration:none;
 }
+.copyright{
+    border-top: 1px solid #f1f1f1;
+    margin-top: 40px;
+    text-align: center;
+}
 /* top */
 .topfade {
     position: fixed;
     _position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     right: 50px;
     display: none;
 }
