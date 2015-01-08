@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<head>
+		<title>tooltips</title>
+		<style type="text/css">
+			.leo-container{
+				margin: 15px auto;
+				background: rgba(255,97,89,0.5);
+				width: 1024px;
+				padding: 50px;
+			}
+			.leo-tips span{
+				background: rgba(0,0,0,0.7);
+			    border-radius: 8px;
+			    color: #fff;
+			    display: inline-block;
+			    padding: 15px;
+			    visibility: hidden;
+			    position: relative;
+			    top: 10px;
+			}
+			.leo-tips span:before{
+				border-color: transparent transparent #4c4c4c #4c4c4c;
+			    border-image: none;
+			    border-style: solid;
+			    border-width: 5px;
+			    content: "";
+			    height: 0;
+			    left: 20px;
+			    opacity: 0.8;
+			    position: absolute;
+			    top: -10px;
+			    width: 0;
+			}
+			.leo-tips:hover span{
+				visibility: visible;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="leo-container">
+			<div class="leo-tips">
+				<h3>leo,come on!</h3>
+				<span>
+					This is a tooltip message:<br>
+					I'm leo
+				</span>
+			</div>
+		</div>
+	</body>
+</html>

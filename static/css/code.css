@@ -182,14 +182,14 @@ pre .err {
     text-align:left;
 }
 #toc a {
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
 #toc a:hover{
     color: #258fb8;
 }
 #toc .top-active a{
-    color: #258fb8 !important;
+    color: #ccc !important;
 }
 #toc .top-h3 {
     padding-left: 4px;
