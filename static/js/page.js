@@ -6,8 +6,7 @@ $(function () {
     $('.article').each(function (i) {
         $(this).find('img').each(function () {
             if ($(this).parent().hasClass('fancybox')) return;
-            var url2 = this.src;
-            var url = url2.substring(0, url2.length - 4);
+            var url = this.src;
             $(this).wrap('<a href="' + url + '" title="' + this.title + '" class="fancybox"></a>');
         });
         $(this).find('.fancybox').each(function () {
