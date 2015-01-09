@@ -21,7 +21,7 @@ CSS的奇妙一直让我心花怒放，也一直没有系统的学习过，说�
 4、利用伪类`:hover`将需要提示的框显示出来；  
 
 最终显示效果如下：  
-![tooltips显示效果](/static/images/2015-01-08.png)
+![tooltips显示效果](/static/images/20150108001.png)
 
 ##构建dom结构
 &emsp;
@@ -93,7 +93,7 @@ border是有宽度的，假如一个很小很短的border，四个角透明两�
 
 至此一个带指针的tooltip完成。  
 
-请狠狠的戳[这里](/demo/tooltips.html)查看效果(非CSS3浏览器情绕行)
+请狠狠的戳[这里](/demo/tooltips.html)查看效果(非CSS3浏览器请绕行)
 
 
 
