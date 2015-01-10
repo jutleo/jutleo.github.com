@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<title>login</title>
+		<style type="text/css">
+			.leo-container{
+				background: none repeat scroll 0 0 rgba(255, 189, 46, 0.1);
+			    border: 1px dashed #ffbd2e;
+			    margin: 10px auto;
+			    position: relative;
+			    padding: 80px;
+			}
+			.leo-box{
+				background: rgba(71,207,63,1);
+				box-shadow: 1px 1px 5px inset;
+				float: left;
+				width: 150px;
+				height: 150px;
+				margin-right: 50px;
+				opacity: 0.8;
+    			transition: all 0.2s ease-out;
+			}
+			.box1:hover{
+				opacity: 1;
+				transform: scale(1.5) rotate(2deg);
+			}
+			.box2:hover{
+				transform: scale(1.5);
+				transform-origin: 100% 100%;
+			}
+			.box3:hover{
+				transform: scale(1.5);
+				transform-origin: 0 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="leo-container">
+			<div class="leo-box box1"></div>
+			<div class="leo-box box2"></div>
+			<div class="leo-box box3"></div>
+			<div style="clear:both;"></div>
+		</div>
+	</body>
+</html>
