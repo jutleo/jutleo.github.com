@@ -6,6 +6,8 @@
     <meta name="description" content="{{ description }}">{% capture tags %}{% if page.tags %}{{ page.tags }}{% else %}曾经不知你好{% endif %}{% endcapture %}
     <meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
     <link href="/static/images/favicon.ico" rel="icon" type="image/x-icon">
+    <meta name="description" content="{{site.description}}">
+    <meta name="keywords" content="{{site.keywords}}">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{site.description}}</title>
     <link rel="stylesheet" href="/static/css/min/pure-min.css">
     <!--[if lte IE 8]>

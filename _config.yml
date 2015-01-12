@@ -1,5 +1,5 @@
 #production_url是sitemap.txt生成的url,方便百度谷歌收录
-production_url: http://jutleo.github.io
+production_url: http://jutleo.com
 author: leo
 description: 看山还是山
 #
@@ -23,3 +23,5 @@ future: true
 lsi:      false
 #禁用定制插件
 safe:     false
+description: jutleo的个人站点
+keywords: jutleo,碎言碎语,技术,个人网站,创业
