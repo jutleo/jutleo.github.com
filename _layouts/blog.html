@@ -3,8 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">{% capture description %}{% if page.description %}{{ page.description }}{% else %}曾经不知你好{% endif %}{% endcapture %}
-    <meta name="description" content="{{ description }}">{% capture tags %}{% if page.tags %}{{ page.tags }}{% else %}曾经不知你好{% endif %}{% endcapture %}
-    <meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
     <link href="/static/images/favicon.ico" rel="icon" type="image/x-icon">
     <meta name="description" content="{{site.description}}">
     <meta name="keywords" content="{{site.keywords}}">
