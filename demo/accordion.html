@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<title>login</title>
+		<style type="text/css">
+			.leo-container{
+				background: none repeat scroll 0 0 rgba(255, 189, 46, 0.1);
+			    border: 1px dashed #ffbd2e;
+			    margin: 10px auto;
+			    position: relative;
+			    padding: 80px;
+			}
+			.accordion{
+			  border-top: none;
+			  list-style: none;
+			}
+			.accordion input[type='radio']{
+			  display: none;
+			}
+			.accordion label{
+			  background: rgba(195, 195, 195, 0.4);
+			  border-left: 1px solid #d2d2d2;
+			  border-top: 1px solid #d2d2d2;
+			  display: block;
+			  font-size: 12px;
+			  font-weight: 400;
+			  line-height: 30px;
+			  margin-bottom: 0px;
+			}
+			.accordion label:before{
+			  background-color: #fff;
+			  border-radius: 10px;
+			  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+			  content: "\2610";
+			  display: inline-block;
+			  line-height: 18px;
+			  margin: 0 5px;
+			  text-align: center;
+			  vertical-align: middle;
+			  width: 18px;
+			}
+			.accordion-content{
+			  height: 0;
+			  overflow: hidden;
+			  transition: height 0.5s ease 0s;
+			}
+			.accordion input:checked + label:before{
+			  background: 0 0 5px rgba(255, 0, 0, 0.5) inset;
+			  color: #f00;
+			  content: "\2611";
+			}
+			.accordion input:checked ~ .accordion-content{
+			  height: auto;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="leo-container">
+			<ul class="accordion">
+				<li>
+					<input type="radio" id="accordion_1" name="accordion_name">
+					<label for="accordion_1">Test1</label>
+					<div class="accordion-content">
+						<p>窗外天空 掠过的候鸟</p>
+						<p>又让我想起你 这一刻的情景</p>
+						<p>此刻你的 每一个街道</p>
+						<p>在阳光照耀下 你的天空</p>
+					</div>
+				</li>
+				<li>
+					<input type="radio" id="accordion_2" name="accordion_name">
+					<label for="accordion_2">Test2</label>
+					<div class="accordion-content">
+						<p>我在远方 很多的岁月</p>
+						<p>总是会想起你 给予我的一切</p>
+						<p>你给我的 每一个梦想</p>
+						<p>在漂泊的岁月 让我坚强</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
