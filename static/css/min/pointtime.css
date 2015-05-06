@@ -7,14 +7,14 @@
 .point-time {
     content: "";
     position: absolute;
-    width: 13px;
-    height: 13px;
+    width: 10px;
+    height: 10px;
     top: 9px;
     left: 20%;
     background: #1c87bf;
-    margin-left: -4px;
+    margin-left: -3px;
     border-radius: 50%;
-    box-shadow: 0 0 0 5px #fff;
+    box-shadow: 0 0 0 1px #fff;
 }
 
 .point1 {
@@ -42,11 +42,11 @@
 }
 
 .archive a {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .archive span {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .archive article {

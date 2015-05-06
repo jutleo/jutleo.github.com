@@ -1,6 +1,7 @@
 $(function(){
     //主题星期变换颜色开始
     var dayweek=new Date().getDay();
+    dayweek = 1;
     switch (dayweek) {
         case 0:
             $('.sidebar,.search-query').css({  "background": "rgba(75, 75, 73, 0.8)" });
