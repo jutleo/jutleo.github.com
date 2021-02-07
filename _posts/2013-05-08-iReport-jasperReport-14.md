@@ -27,7 +27,7 @@ tags: [iReport,jasperReport]
         return "&pid=0001"
 	}
 	
-在`print.js`中指定 `<PARAM NAME="CODE" VALUE="com.isoftstone.pcis.report.print.applet.PrinterApplet" />`
+在`print.js`中指定 `<PARAM NAME="CODE" VALUE="xxx.yyy.zzz.PrinterApplet" />`
 **PrinterApplet中reportViewer** 
 	
 	// javascript预览报表
